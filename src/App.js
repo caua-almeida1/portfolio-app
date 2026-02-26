@@ -59,7 +59,7 @@ function App() {
       scale: 1,
       duration: 1.4,
       ease: "power4.out"
-    }, "-=1"); // começa 1 segundo antes do splash acabar
+    }, "-=1"); 
 
     tl.to(heroContent, {
       opacity: 1,
