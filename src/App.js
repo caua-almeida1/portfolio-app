@@ -60,7 +60,7 @@ function App() {
   const heroContentRef = useRef(null);
   const hasAnimatedRef = useRef(false);
 
-  const [activeSection, setActiveSection] = useState('inicio');
+  const [, setActiveSection] = useState('inicio');
   const [language, setLanguage] = useState('pt');
 
   const [activeProject, setActiveProject] = useState(null);
@@ -1048,7 +1048,7 @@ function App() {
                   <div className="portfolio-differentials__grid">
 
                     <div className="portfolio-differentials__card reveal" data-delay="0.2">
-                      <img src={imgDifferencial1} />
+                      <img src={imgDifferencial1}  alt="" />
                       <h3>{t.differentials.cards[0].title}</h3>
                       <p>
                         {t.differentials.cards[0].text}
@@ -1056,7 +1056,7 @@ function App() {
                     </div>
 
                     <div className="portfolio-differentials__card reveal" data-delay="0.35">
-                      <img src={imgDifferencial2} />
+                      <img src={imgDifferencial2}  alt="" />
                       <h3>{t.differentials.cards[1].title}</h3>
                       <p>
                         {t.differentials.cards[1].text}
@@ -1064,7 +1064,7 @@ function App() {
                     </div>
 
                     <div className="portfolio-differentials__card reveal" data-delay="0.5">
-                      <img src={imgDifferencial3} />
+                      <img src={imgDifferencial3} alt=""  />
                       <h3>{t.differentials.cards[2].title}</h3>
                       <p>
                         {t.differentials.cards[2].text}
@@ -1111,7 +1111,7 @@ function App() {
                       data-delay="0.3"
                     // onClick={() => openModal("Markfy")}
                     >
-                      <img src={markfyImg} />
+                      <img src={markfyImg}  alt="" />
 
                       <div className="portfolio-projects__overlay">
                         <div className="portfolio-projects__title-group">
@@ -1141,7 +1141,7 @@ function App() {
                       data-delay="0.4"
                       onClick={() => openModal("BravoPizzas")}
                     >
-                      <img src={bravopizzaImg} />
+                      <img src={bravopizzaImg} alt=""  />
 
                       <div className="portfolio-projects__overlay">
                         <h3 className="portfolio-projects__name">BravoPizza's</h3>
@@ -1159,7 +1159,7 @@ function App() {
                       data-delay="0.5"
                       onClick={() => openModal("Edtech")}
                     >
-                      <img src={edtechImg} />
+                      <img src={edtechImg} alt=""  />
 
                       <div className="portfolio-projects__overlay">
 
